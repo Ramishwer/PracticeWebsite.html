@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            background-color: green;
+            list-style-type: none;
+            overflow: hidden;     
+        }
+        li{
+            float: left;
+        }
+         li a{
+             font-size: 17px;
+            color: white;
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+        } 
+        li a:hover{
+            background-color: red;
+        }
+        #jee{
+            float: left;
+            width: 700px 200px;
+            padding: 10px;
+        }
+       
+       .form{
+           position: relative;
+           left: 450px;
+           bottom: -10px;
+           color: firebrick;
+       }
+
+       #text1{
+           width: 300px;
+           position: relative;
+           top: 3px;
+           padding: 8px;
+       }
+
+       #text2{
+           width: 300px;
+           position: relative;
+           top: 15px;
+           padding: 8px;
+
+       }
+
+       #text3{
+           width: 300px;
+           position: relative;
+           top: 30px;
+           padding: 8px;
+
+       }
+
+       #lab{
+           position: relative;
+           top: -5px;
+           font-size: 18px;
+       }
+       #lab1{
+           position: relative;
+           top: 10px;
+           font-size: 18px;
+
+       }
+
+       #lab2{
+           position: relative;
+           top: 23px;
+           font-size: 18px;
+
+       }
+       #submi{
+           position: relative;
+           top: 40px;
+           padding: 8px;
+           width: 150px ;
+       }
+       h1{
+           font-size: 30px;
+           position: relative;
+           left: 40px;
+       }
+       p{
+           position: relative;
+           top: 150px;
+       }
+    </style>
+</head>
+<body >
+    
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li ><a href="#Apply">Apply</a></li>
+        <li><a href="#Courses">Courses</a></li>
+        <li><a href="#Our Toppers">Our Toppers</a></li>
+        <li><a href="#Contact Us">Contact Us</a></li>
+        
+ </ul>
+ <div id="jee">
+   <img src="https://www.youceed.com/blogs/wp-content/uploads/2020/05/GETTING-SMART-WITH-IIT-JEE-PREPARATION-1.jpg">
+</div>
+
+    <form action="https://www.newtonschool.co/" class="form">
+        <h1>Application Form</h1>
+
+        <label id="lab" for="fname"> Name:</label><br>
+        <input id="text1" type="text"  placeholder="Enter Your Name"><br>
+    
+
+        <label id="lab1" for="fname"> Password:</label><br>
+        <input id="text2" type="password" placeholder="Enter Your Password"><br>
+    
+
+        <label id="lab2" for="fname"> Email ID:</label><br>
+        <input id="text3" type="email" placeholder="Enter Your Email ID" ><br><br>
+    
+        <input id="submi" type="submit" value="Submit">
+        
+       
+       
+    </form>
+    <article>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quaerat architecto deserunt praesentium iure cumque eveniet iste voluptate dignissimos. Ducimus repellendus eaque eum, temporibus quod, recusandae itaque molestias a numquam omnis ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab dolore eveniet ducimus, inventore sunt laboriosam quae veritatis, minima commodi recusandae eligendi incidunt tenetur quos? Minima doloremque molestiae deleniti blanditiis?</p>
+
+    </article>
+    
+    
+</body>
+</html>
